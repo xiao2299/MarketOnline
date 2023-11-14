@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/danh_sach_phong_live"
+            android:textSize="30sp"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9">
+
+        <ListView
+            android:id="@+id/listviewlive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/go_live_btn"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="@string/live"
+            android:textSize="20sp"
+            android:onClick="Go_Live">
+
+        </Button>
+        <Button
+            android:id="@+id/go_next_live_btn"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="@string/next_live"
+            android:textSize="20sp"
+            android:onClick="Go_Next_Live">
+
+        </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>

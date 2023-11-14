@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MarketOnline</string>
+    <string name="market_online">Market_online</string>
+    <string name="live_id">Live ID</string>
+    <string name="Name">Name</string>
+    <string name="live">LIVE</string>
+    <string name="danh_sach_phong_live">Danh Sach Phong Live</string>
+    <string name="next_live">next live</string>
+    <string name="go_go">Go Go</string>
+    <string name="nh_m_3">Nhóm 3 ó</string>
+</resources>
